@@ -6,8 +6,6 @@
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
@@ -54,11 +52,12 @@ mono_crash.*
 *.blend1.meta
 
 # --- Builds ---
-*.apk
-*.aab
+# Build/Builds folders and *.apk / *.aab / *.app are intentionally KEPT.
+# Only debug-symbol folders that Unity says not to ship are ignored:
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
 *.unitypackage
 *.unitypackage.meta
-*.app
 
 # --- Crashlytics ---
 crashlytics-build.properties
