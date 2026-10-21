@@ -1,0 +1,4 @@
+repository "PachinkoGame_Francisca_ProgrammingForGames_Week1/PachinkoGame_Francisca_ProgrammingForGames_Week1@3573554907492@cloud"
+  path "/"
+    br "/main"
+    co "/main"
